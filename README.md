@@ -1,2 +1,6 @@
 # Email-spam-Detection-using-NLP.
-Email spam detection using NLP and Machine Learning to classify emails as spam or not spam. Implements data preprocessing, feature extraction, and Naive Bayes classification.
+This project aims to develop an efficient email spam detection system using Natural Language Processing (NLP) and Machine Learning techniques. The system classifies emails as spam or non-spam by analyzing the content of email messages.
+Key Features:Loads and preprocesses a dataset containing email messages and their spam labels.Cleans the email text by removing punctuation and stopwords to enhance feature extraction.Converts cleaned text data into numerical features using tokenization and CountVectorizer (bag-of-words model).
+Splits the dataset into training and testing subsets for model validation.Trains a Multinomial Naive Bayes classifier on the training data to distinguish between spam and legitimate emails.
+Evaluates model performance using classification metrics such as precision, recall, f1-score, accuracy, and confusion matrices.Achieves high accuracy (99%) on both training and test datasets, demonstrating effective spam filtering capabilities.
+Technologies Used:Python libraries: NumPy, pandas, NLTK for text processing, scikit-learn for machine learning.Natural Language Processing: Tokenization, stopword removal, punctuation filtering.Machine Learning: Multinomial Naive Bayes classifier, data splitting, model evaluation.
